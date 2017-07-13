@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <!-- Meta data -->
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Setting Profile</title>
+    <!-- Font Awesome -->
+    <!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css"> -->
+    <!-- Bower css -->
+    <link rel="stylesheet" type="text/css" href="vendor.css">
+    <!-- Main style -->
+    <link rel="stylesheet" type="text/css" href="main.css">
+    <script src="http://cdnjs.cloudflare.com/ajax/libs/jquery/1.10.2/jquery.js"></script>
+</head>
+
+<body class="setting-page">
+    <div id="wrapper">
+        <header class="site-header">
+            <div class="container clearfix">
+                <div class="site-brand">
+                    <div class="site-logo">
+                        <a href="#"><img src="images/assets/logo.png" alt=""/></a>
+                    </div>
+                </div>
+                <nav class="main-menu">
+                    <ul>
+                        <li><a href="#">Politics</a></li>
+                        <li><a href="#">Environment</a></li>
+                        <li><a href="#">Community</a></li>
+                        <li><a href="#">Lifestyle</a></li>
+                        <li><a href="#">Health</a></li>
+                        <li><a href="#">Travel</a></li>
+                        <li><a href="#">Education</a></li>
+                        <li><a href="#">Fitness</a></li>
+                    </ul>
+                </nav>
+                <div class="right-header">
+                    <a class="theme-button" href="#"><img src="images/assets/plus.png" alt=""/> Make Pledge</a>
+                    <div class="search-form right-div">
+                        <span class="search-icon"><img src="images/assets/search.png" alt=""/></span>
+                    </div>
+                    <div class="notification right-div">
+                        <span class="not-icon"><img src="images/assets/noti.png" alt=""/></span>
+                    </div>
+                    <div class="user right-div">
+                        <span class="user-profile"><img src="images/assets/user.png" alt=""/></span>
+                    </div>
+                    <div class="menu-bar right-div">
+                        <span class="menu-bar-icon"><img src="images/assets/bar.png" alt=""/></span>
+                    </div>
+                </div>
+            </div>
+        </header><!-- .site-header -->
+        <div class="site-main clearfix">
+            <aside class="menu-left">
+                <ul>
+                    <li class="active"><a href="#">Edit Profile</a></li>
+                    <li><a href="#">Pledgetime</a></li>
+                    <li><a href="#">Change Password</a></li>
+                    <li><a href="#">Blocking</a></li>
+                    <li><a href="#">Notification</a></li>
+                </ul>
+            </aside><!-- .menu-left -->
+            <div class="site-content">
+                <h1 class="page-title">Profile Setting</h1>
+                <div class="profile-form">
+                    <form action="">
+                        <div class="row">
+                            <div class="col-lg-6 col-md-6">
+                                <p><span>First name</span><input type="text" value="Khoa"/></p>
+                            </div>
+                            <div class="col-lg-6 col-md-6">
+                                <p><span>Last name</span><input type="text" value="Dinh"/></p>
+                            </div>
+                        </div>
+                        <p><span>Username</span><input type="text" value="@khoadinh"/></p>
+                        <p class="textarea-label"><span>About</span><textarea name="" id="about" cols="30" rows="10">Something about me</textarea></p>
+                        <p><span>Location</span><input type="text" value="Ho Chi Minh City, Vietnam"/></p>
+                        <p>
+                            <span>Email</span><input type="email" value="dinhtrandangkhoa0020@gmail.com"/>
+                            <select name="opt-email" id="opt-email">
+                                <option selected value="public">Public</option>
+                                <option value="private">Private</option>
+                            </select>
+                        </p>
+                        <p>
+                            <span>Phone</span><input type="tel" value="+81 122 6938 207"/>
+                            <select name="opt-tel" id="opt-tel">
+                                <option selected value="public">Public</option>
+                                <option value="private">Private</option>
+                            </select>
+                        </p>
+                        <p>
+                            <span>Website</span><input type="text" value="www.alexdinh.com"/>
+                            <select name="opt-web" id="opt-web">
+                                <option value="public">Public</option>
+                                <option selected value="private">Private</option>
+                            </select>
+                        </p>
+                        <p class="text-center">
+                            <input type="submit" class="setting-submit" value="Save Change"/>
+                        </p>
+                    </form>
+                </div>
+            </div><!-- .site-content -->
+        </div><!-- .site-main -->
+    </div><!-- #wrapper -->
+</body>
+<!-- Bower js -->
+<script type="text/javascript" src="vendor.js"></script>
+<script type="text/javascript" src="libs/select-box/jquery.selectBox.js"></script>
+<!-- Main JS -->
+<script type="text/javascript" src="main.js"></script>
+</html>

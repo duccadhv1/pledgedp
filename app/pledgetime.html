@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <!-- Meta data -->
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Setting Pledgetime</title>
+    <!-- Font Awesome -->
+    <!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css"> -->
+    <!-- Bower css -->
+    <link rel="stylesheet" type="text/css" href="vendor.css">
+    <!-- Main style -->
+    <link rel="stylesheet" type="text/css" href="main.css">
+    <script src="http://cdnjs.cloudflare.com/ajax/libs/jquery/1.10.2/jquery.js"></script>
+</head>
+
+<body class="setting-page">
+    <div id="wrapper">
+        <header class="site-header">
+            <div class="container clearfix">
+                <div class="site-brand">
+                    <div class="site-logo">
+                        <a href="#"><img src="images/assets/logo.png" alt=""/></a>
+                    </div>
+                </div>
+                <nav class="main-menu">
+                    <ul>
+                        <li><a href="#">Politics</a></li>
+                        <li><a href="#">Environment</a></li>
+                        <li><a href="#">Community</a></li>
+                        <li><a href="#">Lifestyle</a></li>
+                        <li><a href="#">Health</a></li>
+                        <li><a href="#">Travel</a></li>
+                        <li><a href="#">Education</a></li>
+                        <li><a href="#">Fitness</a></li>
+                    </ul>
+                </nav>
+                <div class="right-header">
+                    <a class="theme-button" href="#"><img src="images/assets/plus.png" alt=""/> Make Pledge</a>
+                    <div class="search-form right-div">
+                        <span class="search-icon"><img src="images/assets/search.png" alt=""/></span>
+                    </div>
+                    <div class="notification right-div">
+                        <span class="not-icon"><img src="images/assets/noti.png" alt=""/></span>
+                    </div>
+                    <div class="user right-div">
+                        <span class="user-profile"><img src="images/assets/user.png" alt=""/></span>
+                    </div>
+                    <div class="menu-bar right-div">
+                        <span class="menu-bar-icon"><img src="images/assets/bar.png" alt=""/></span>
+                    </div>
+                </div>
+            </div>
+        </header><!-- .site-header -->
+        <div class="site-main clearfix">
+            <aside class="menu-left">
+                <ul>
+                    <li><a href="#">Edit Profile</a></li>
+                    <li class="active"><a href="#">Pledgetime</a></li>
+                    <li><a href="#">Change Password</a></li>
+                    <li><a href="#">Blocking</a></li>
+                    <li><a href="#">Notification</a></li>
+                </ul>
+            </aside><!-- .menu-left -->
+            <div class="site-content">
+                <h1 class="page-title">Your Pledge Page Setting</h1>
+                <div class="pledge-form">
+                    <form action="">
+                        <h4>Pledge Order</h4>
+                        <p>Decide which kind of Pleges will appear as defaul on your Pledgetime</p>
+                        <select name="" id="not" class="selectpicker">
+                            <option value="on">Newest Pledges</option>
+                            <option value="off">Recent Pledges</option>
+                        </select>
+                        <h4>Check-in</h4>
+                        <p>Hide/Show your check-in history on Pledgetime</p>
+                        <select name="" id="not-message" class="selectpicker">
+                            <option value="on">Newest Pledges</option>
+                            <option value="off">Recent Pledges</option>
+                        </select>
+                        <h4>Message Button</h4>
+                        <p>Hide/Show the message button which helps people send your a private text</p>
+                        <select name="" id="" class="selectpicker">
+                            <option value="on">Show</option>
+                            <option value="off">Hide</option>
+                        </select>
+                        <input type="submit" class="setting-submit" value="Save Change"/>
+                    </form>
+                </div>
+            </div><!-- .site-content -->
+        </div><!-- .site-main -->
+    </div><!-- #wrapper -->
+</body>
+<!-- Bower js -->
+<script type="text/javascript" src="vendor.js"></script>
+<script type="text/javascript" src="libs/select-box/jquery.selectBox.js"></script>
+<!-- Main JS -->
+<script type="text/javascript" src="main.js"></script>
+</html>

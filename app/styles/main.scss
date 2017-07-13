@@ -1,0 +1,131 @@
+/* 
+ * PROJECT STYLE
+ * IMPORT ALL SCSS FILES HERE
+ */
+//Fonts import
+@import "fonts";
+@import "variable";
+// Project SCSS
+@import "jquery.selectBox";
+@import "header";
+//@import "bootstrap-select";
+@import "settingpage";
+@import "home";
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, font, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td {
+  border: 0;
+  font-size: 100%;
+  margin: 0;
+  outline: 0;
+  padding: 0;
+  vertical-align: baseline;
+}
+body{
+  font-size: 14px;
+  color: $primary_color;
+  background-color: #f2f2f2;
+  font-family: 'sf_ui';
+  line-height: 22px;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  clear: both;
+  color: $primary_color;
+  font-family: 'sf_ui';
+  font-style: normal;
+}
+h1 {
+  font-size: 24px;
+}
+h2 {
+  font-size: 20px;
+}
+h3 {
+  font-size: 18px;
+}
+h4 {
+  font-size: 16px;
+}
+h5 {
+  font-size: 14px;
+}
+h6 {
+  font-size: 12px;
+}
+img{
+  border:none;
+  max-width:100%;
+  height: auto;
+}
+a{
+  color:#373737;
+  text-decoration: none;
+}
+a:hover{
+  color: #c9a96e;
+  text-decoration:none;
+}
+a:focus{
+  text-decoration: none;
+  color: inherit;
+  outline: none;
+}
+a,
+button,
+input {
+  transition: all 0.3s ease-in-out 0s;
+  -moz-transition: all 0.3s ease-in-out 0s;
+  -o-transition: all 0.3s ease-in-out 0s;
+  -webkit-transition: all 0.3s ease-in-out 0s;
+  -ms-transition: all 0.3s ease-in-out 0s;
+}
+input[type=text],
+input[type=email],
+input[type=password],
+input[type=tel],
+input[type=number],
+input[type=search],
+textarea {
+  border: 1px solid $border-color;
+  padding: 12.5px 15px;
+  font-size: 14px;
+  color: $placeholder-color;
+  border-radius: 0;
+}
+button,
+input[type=text]:focus,
+input[type=tel]:focus,
+input[type=email]:focus,
+input[type=password]:focus,
+input[type=number]:focus,
+input[type=search]:focus,
+textarea:focus {
+  border-color: #c9a96e;
+  outline: none;
+}
+.table > tbody > tr > td,
+.table > tbody > tr > th,
+.table > tfoot > tr > td,
+.table > tfoot > tr > th,
+.table > thead > tr > td,
+.table > thead > tr > th {
+  border-color: #FCD998;
+}
+
+@media (min-width: 1200px) {
+  .container{
+    width: 100%;
+    max-width: 1470px;
+  }
+}
